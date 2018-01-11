@@ -25,14 +25,14 @@ p {
 
 a {
     font-family: Helvetica, Arial, sans-serif;
+    color: #2274A5;
     font-size: 1.1em;
     text-decoration: none;
-    color: #040404;
-    padding: .3em;
 }
 
 a:hover {
-    color: #2274A5;
+    color: rgb(29, 96, 134);
+    text-decoration: underline;
 }
 
 a:visted {
@@ -51,7 +51,7 @@ header {
 
 /* FOOTER */
 .social {
-    padding-top: .75em;
+    padding-top: 1em;
     padding-bottom: .6em;
     padding-left: 3em;
 }
@@ -59,6 +59,7 @@ header {
 .social a {
     color: #fff;
     font-size: 2em;
+    padding: 3px;
 }
 /*end footer styles*/
 
@@ -77,7 +78,7 @@ nav li {
 }
 
 
-nav a:active{
+nav a.active{
     color: #040404;
     text-decoration: underline;
 }
@@ -110,6 +111,7 @@ nav a:active{
 
 .main-h1 {
     text-align: center;
+    padding: 0 0 1em 0;
 }
 /* end home page styles */
 
@@ -138,18 +140,18 @@ nav a:active{
 /* end media container */
 
 .flexbox-t {
-display: felx;
+display: flex;
 display: -webkit-flex;
-padding-top: 1em;
-padding-bottom: 1em;
+padding-top: 0.5em;
+padding-bottom: 0.5em;
 padding-left: 5em;
 padding-right: 5em;
 align-items: center;
 }
 
 .testi-padding {
-    padding-top: 4em;
-    padding-bottom: 4em;
+    padding-top: 0.8em;
+    padding-bottom: 2.5em;
 }
 
 .pl {
