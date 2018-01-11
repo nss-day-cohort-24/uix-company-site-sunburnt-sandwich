@@ -1,6 +1,6 @@
-* {
+/* * {
     border: solid red 1px;
-}
+} */
 
 div#temp-header {
 }
@@ -45,9 +45,9 @@ div#products-header {
     display: flex;
 }
 
-div {
+/* div {
     border: 1px solid red;
-}
+} */
 
 div.products {
     display: flex;
