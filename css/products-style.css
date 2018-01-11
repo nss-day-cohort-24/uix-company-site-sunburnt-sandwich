@@ -49,6 +49,6 @@ div.products {
     margin: 2em 0 2em 0;
   }
 
-  img {
+  img.product-pics {
       border-radius: 50%;
   }
