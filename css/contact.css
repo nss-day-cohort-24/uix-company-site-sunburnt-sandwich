@@ -1,0 +1,30 @@
+/*positioning the location and map*/
+.location-container {
+    padding: 100px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.location {
+    font-size: 1.5em;
+    width: 25%;
+    padding-left: 100px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.location h2{
+    margin: 0;
+}
+
+hr {
+    width: 310px;
+    color: black;
+}
+
+.overhead {
+    width: 45%;
+}
+
+
+

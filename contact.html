@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Stark</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
-</head>
-<body>
-    <div class="container">
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Stark Industries</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+        <link rel="stylesheet" href="css/contact.css">
+        <script src="main.js"></script>
+        <script src="assets/fontawesome-all.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
         <header class="fixed-nav-bar">
             <!--title?<h3>stark</h3>-->
-            <a href="index.html"><img src="img/stark_logo_full.jpg"></a><!--company logo-->
+            <a href="index.html"><img src="images/stark_logo_full.jpg"></a><!--company logo-->
             <nav>
                 <ul>
                     <li id="nav-home active"><a href="index.html">Home</a></li>
@@ -24,42 +27,48 @@
                 </ul>
             </nav>
         </header>
-        <main>
-            <section>
-                <article>
-                    <h3>Location</h3>
-                    <p>500 Interstate Blvd S #300, Nashville, TN 37210</p>
-                    <img src="images/overhead.png">
-                </article>
-                <article>
-                    <h1>Contact Us</h1>
-                    <a href="mailto:arthurrankin1992@gmail.com">Email Us</a><br>
-                    <a href="tel:555-555-5555">Call Us</a><br>
-                    <a href="#"><img src="#">Twitter</a><br>
-                </article>
-                <article>
-                    <form>
-                        First Name:<br>
-                        <input type="text" name="firstname"><br>
-                        Last Name:<br>
-                        <input type="text" name="lastname"><br>
-                        Email:<br>
-                        <input type="text" name="email"><br>
-                        Comments:<br>
-                        <textarea name="message" rows="10" cols="30"></textarea><br>
-                        <br>
-                        <input type="submit">                                                
-                    </form>
-                </article>
-            </section>
-        </main>
-        <footer class="dark-blue">
-            <div class="social">
-                <!--twitter--><a href="https://twitter.com/starkmanagement?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
-                <!--instagram--><a href="https://www.instagram.com/officialstarkindustries/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <!--linkedin--><a href="https://www.linkedin.com/company/stark-industries/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-        </footer> 
-    </div>
-</body>
+
+        <div class="container">
+            <main>
+                <section>
+                    <article class="location-container">
+                        <aside class="location">
+                            <h2>Location</h2>
+                            <hr>
+                            <p>500 Interstate Blvd S #300,<br>
+                            Nashville, TN 37210</p>
+                        </aside>
+                            <img src="images/overhead.png" class="overhead">
+                    </article>
+                    <article>
+                        <h2>Contact Us</h2>
+                        <a href="mailto:arthurrankin1992@gmail.com">Email Us</a><br>
+                        <a href="tel:555-555-5555">Call Us</a><br>
+                        <a href="#"><img src="#">Twitter</a><br>
+                    </article>
+                    <article>
+                        <form>
+                            First Name:<br>
+                            <input type="text" name="firstname"><br>
+                            Last Name:<br>
+                            <input type="text" name="lastname"><br>
+                            Email:<br>
+                            <input type="text" name="email"><br>
+                            Comments:<br>
+                            <textarea name="message" rows="10" cols="30"></textarea><br>
+                            <br>
+                            <input type="submit">                                                
+                        </form>
+                    </article>
+                </section>
+            </main>
+            <footer class="dark-blue">
+                <div class="social">
+                    <!--twitter--><a href="https://twitter.com/starkmanagement?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <!--instagram--><a href="https://www.instagram.com/officialstarkindustries/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <!--linkedin--><a href="https://www.linkedin.com/company/stark-industries/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </footer>
+        </div>
+    </body>
 </html>

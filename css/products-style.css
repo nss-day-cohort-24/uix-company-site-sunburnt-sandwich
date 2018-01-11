@@ -5,31 +5,36 @@
 div#temp-header {
 }
 
-div#products-header {
+div.products-header {
     background: #6E6E6E;
     border: 1px solid #979797;   
     color: white;
     font-family: Helvetica, sans-serif;
     height: 250px;
+    padding-top: 60px;
+
 }
 
-.copy-text {
+#copy-text {
     text-align: center;
     line-height: 1.5em;
     font-size: 1.3em;
     display: inline-block;
-    margin: auto;
-    margin-top: 5.3em;
-    margin-right: 4em;
+    margin: -20px 0 0 530px;
+
     color: white;
     font-family: Helvetica, sans-serif;
 }
 
-.heading-text {
-    float: left;
-    margin-left: 1em;
-    margin-right: 15em;
-    font-size: 1.7em;
+h2 {
+    /* float: left; */
+    /* margin-left: 1em;
+    margin-right: 15em; */
+    /* font-size: 1em; */
+    color: white;
+    position: relative;
+    left: 17px;
+    
 }
 
 .container {
