@@ -142,11 +142,29 @@ nav li {
     left: 0; 
     width: 100%; 
     height: 100%; 
-
 }
 
 .flexbox-t {
+display: felx;
+display: -webkit-flex;
+padding-top: 1em;
+padding-bottom: 1em;
+padding-left: 5em;
+padding-right: 5em;
+align-items: center;
+}
 
+.testi-padding {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.pl {
+    margin-right: 2em;
+}
+
+.pr {
+    margin-left: 2em;
 }
 
 .top-text {
@@ -163,3 +181,8 @@ nav li {
     padding-right: 1em;
 }
 
+.circle-img {
+    border-radius: 50%;
+    width: 12em;
+    height: 12em;
+}
