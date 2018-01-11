@@ -1,4 +1,4 @@
-/* base css */
+/* BASE STYLES */
 h1 {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 3em;
@@ -35,18 +35,11 @@ a:hover {
     color: #2274A5;
 }
 
-a:active {
-    font-style: italic;
-}
-
-nav a:visited{
-    color: #040404;
-}
-
 a:visted {
     color: #6E7E85;
 }
 
+/* HEADER */
 header {
     padding-left: 2em;
     display: flex;
@@ -54,8 +47,22 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+/* end header styles */
 
+/* FOOTER */
+.social {
+    padding-top: .75em;
+    padding-bottom: .6em;
+    padding-left: 3em;
+}
 
+.social a {
+    color: #fff;
+    font-size: 2em;
+}
+/*end footer styles*/
+
+/*  NAVIGATION  */
 nav {
     display: flex;
     align-content: space-around;
@@ -67,6 +74,12 @@ nav {
 nav li {
     display: inline;
     padding: .85em;
+}
+
+
+nav a:active{
+    color: #040404;
+    text-decoration: underline;
 }
 
 .fixed-nav-bar {
@@ -83,37 +96,12 @@ nav li {
       border: 1px solid #2274A5;
   }
 
-.social {
-    padding-top: .75em;
-    padding-bottom: .6em;
-    padding-left: 3em;
-}
+/* end nav styles */
 
-.social a {
-    color: #fff;
-    font-size: 2em;
-}
 
-.quote {
-    display: flex;
-    display: -webkit-flex;
-    background-color: lightgray;
-    padding-left: 3em;
-    align-items: center;
-}
 
-/* background color classes */
 
-.light-blue {
-    background-color: #B8D2E2;
-    opacity: 75%;
-}
-
-.dark-blue {
-    background-color: #2274A5;
-}
-
-/* home page */
+/* HOME PAGE */
 .main-img {
     border-top: 70px; /*for sticky header*/
     width: 100%;
@@ -123,8 +111,12 @@ nav li {
 .main-h1 {
     text-align: center;
 }
+/* end home page styles */
 
-/* testimonial page */
+
+
+/* INTERIOR PAGES */
+
 /* media container */
 .embed-container { 
     position: relative; 
@@ -143,6 +135,7 @@ nav li {
     width: 100%; 
     height: 100%; 
 }
+/* end media container */
 
 .flexbox-t {
 display: felx;
@@ -185,4 +178,23 @@ align-items: center;
     border-radius: 50%;
     width: 12em;
     height: 12em;
+}
+
+.quote {
+    display: flex;
+    display: -webkit-flex;
+    background-color: lightgray;
+    padding-left: 3em;
+    align-items: center;
+}
+
+/* background color classes */
+
+.light-blue {
+    background-color: #B8D2E2;
+    opacity: 75%;
+}
+
+.dark-blue {
+    background-color: #2274A5;
 }
