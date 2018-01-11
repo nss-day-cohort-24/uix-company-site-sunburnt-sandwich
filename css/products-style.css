@@ -5,41 +5,46 @@
 div#temp-header {
 }
 
-div#products-header {
+div.products-header {
     background: #6E6E6E;
     border: 1px solid #979797;   
     color: white;
     font-family: Helvetica, sans-serif;
-    overflow: auto;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 110px;
-    height: 12em;
-    display: flex;
+    height: 250px;
+    padding-top: 60px;
+
 }
 
-.copy-text {
+#copy-text {
     text-align: center;
     line-height: 1.5em;
-    position: absolute;
-    left: 22em;
-    top: 15%;
     font-size: 1.3em;
+    display: inline-block;
+    margin: -20px 0 0 530px;
 
+    color: white;
+    font-family: Helvetica, sans-serif;
 }
 
-.heading-text {
-    float: left;
-    margin-left: 1em;
-    margin-right: 15em;
-    font-size: 1.7em;
+h2 {
+    /* float: left; */
+    /* margin-left: 1em;
+    margin-right: 15em; */
+    /* font-size: 1em; */
+    color: white;
+    position: relative;
+    left: 17px;
+    
 }
 
 .container {
     display: flex;
 }
 
-div {
-    border: 1px solid red;
-}
+div.products {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2em 0 2em 0;
+  }
