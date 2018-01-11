@@ -19,8 +19,10 @@ div#products-header {
     font-size: 1.3em;
     display: inline-block;
     margin: auto;
-    margin-top: 3.6em;
+    margin-top: 5.3em;
     margin-right: 4em;
+    color: white;
+    font-family: Helvetica, sans-serif;
 }
 
 .heading-text {
