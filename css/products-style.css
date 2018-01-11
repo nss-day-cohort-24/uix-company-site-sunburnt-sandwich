@@ -10,23 +10,12 @@ div#products-header {
     border: 1px solid #979797;   
     color: white;
     font-family: Helvetica, sans-serif;
-    /* overflow: auto; */
-    /* position: absolute;
-    left: 0;
-    right: 0; */
-    /* top: 110px;
-    height: 12em; */
-    /* display: flex; */
-    /* padding: 12em 0 12em 0; */
     height: 250px;
 }
 
 .copy-text {
     text-align: center;
     line-height: 1.5em;
-    /* position: relative; */
-    /* left: 22em;
-    top: 15%; */
     font-size: 1.3em;
     display: inline-block;
     margin: auto;
@@ -44,10 +33,6 @@ div#products-header {
 .container {
     display: flex;
 }
-
-/* div {
-    border: 1px solid red;
-} */
 
 div.products {
     display: flex;
