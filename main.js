@@ -1,8 +1,8 @@
 function theEarpiece() {
-    var earpiece = ["name", " decription", " price", " <a href=''>Image</a>"];
-    earpiece.toString();
-    document.getElementById("demo").innerHTML = earpiece;
+    var product = ["name", " decription", " price", " <a href=''>Image</a>"];
+    product.toString();
+    document.getElementById("elementId").innerHTML = product;
 }
 function nothing() {
-	document.getElementById("demo").innerHTML = "";
+	document.getElementById("elementId").innerHTML = "";
 }
