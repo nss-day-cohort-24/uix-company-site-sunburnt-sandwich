@@ -78,7 +78,7 @@ nav li {
 }
 
 
-nav a.active{
+nav a:active{
     color: #040404;
     text-decoration: underline;
 }
@@ -113,7 +113,7 @@ nav a.active{
 
 .main-h1 {
     text-align: center;
-    padding-top: 1em;
+    padding:  .5em 0;
     margin-top: 0;
 
 }
