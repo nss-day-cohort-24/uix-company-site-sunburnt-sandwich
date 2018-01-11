@@ -39,6 +39,14 @@ a:active {
     font-style: italic;
 }
 
+nav a:visited{
+    color: #040404;
+}
+
+a:visted {
+    color: #6E7E85;
+}
+
 header {
     padding-left: 2em;
     display: flex;
@@ -75,16 +83,6 @@ nav li {
       border: 1px solid #2274A5;
   }
 
-
-.light-blue {
-    background-color: #B8D2E2;
-    opacity: 75%;
-}
-
-.dark-blue {
-    background-color: #2274A5;
-}
-
 .social {
     padding-top: .75em;
     padding-bottom: .6em;
@@ -94,6 +92,17 @@ nav li {
 .social a {
     color: #fff;
     font-size: 2em;
+}
+
+/* background color classes */
+
+.light-blue {
+    background-color: #B8D2E2;
+    opacity: 75%;
+}
+
+.dark-blue {
+    background-color: #2274A5;
 }
 
 /* home page */
