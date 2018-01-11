@@ -9,6 +9,7 @@
                 <link rel="stylesheet" type="text/css" media="screen" href="css/products-style.css" />
                 <script src="assets/fontawesome-all.js"></script>
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+                <script src="main.js"></script>
             </head>
             <body>
                     <header class="fixed-nav-bar">
@@ -17,7 +18,7 @@
                         <nav>
                             <ul>
                                 <li id="nav-home active"><a href="index.html">Home</a></li>
-                                <li id="nav-products"><a href="products.html">Products</a></li>
+                                <li id="nav-products"><a class="active" href="products.html">Products</a></li>
                                 <li id="nav-about"><a href="about.html">About</a></li>
                                 <li id="nav-testimonials"><a href="testimonials.html">Testimonials</a></li>
                                 <li id="nav-contact"><a href="contact.html">Contact</a></li>
@@ -34,8 +35,16 @@
         <p id= "copy-text">Our app is compatible with a<br> range of devices. It learns your schedule<br> and keeps you up to speed.</p>
     </div>
 
-    <div class="products">
-        <a href="productdetail.html"><img src="images/apple_watch.jpg" alt="Smart Watch"></a>
+    <div class="products"><div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+                <div class="front">
+                    <a href="productdetail.html"><img src="images/apple_watch.jpg" alt="Smart Watch"></a>
+                </div>
+                <div class="back" onMouseover="theEarpiece()" onMouseout="nothing()">
+                    <p id="watch"></p>
+                </div>
+            </div>
+        </div>
         <a href="productdetail.html"><img src="images/iron-man.jpg" width="230em" height="230em"></a>
         <a href="productdetail.html"><img src="images/ironman_computer.jpg" width="230em" height="230em">  </a>          
         <a href="productdetail.html"><img src="images/jarvis_prod.jpg" width="230em" height="230em"></a>

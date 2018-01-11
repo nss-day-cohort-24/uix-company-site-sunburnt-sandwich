@@ -1,9 +1,8 @@
-//this one holds the info, makes a sting with it, and puts it into HTML//
-function productFunc() {
-    var product = ["name", " decription", " price", " <a href=''>Image</a>"];
-    product.toString();
-    document.getElementById("elementId").innerHTML = product;
+function theEarpiece() {
+    var earpiece = ["name", "<br>" + " decription","<br>" + " price","<br>" + " <a href='www.w3schools.com'>Image</a>"];
+    earpiece.toString();
+    document.getElementById("watch").innerHTML = earpiece;
 }
 function nothing() {
-	document.getElementById("elementId").innerHTML = "";
+	document.getElementById("watch").innerHTML = "";
 }

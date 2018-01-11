@@ -25,14 +25,14 @@ p {
 
 a {
     font-family: Helvetica, Arial, sans-serif;
+    color: #2274A5;
     font-size: 1.1em;
     text-decoration: none;
-    color: #040404;
-    padding: .3em;
 }
 
 a:hover {
-    color: #2274A5;
+    color: rgb(29, 96, 134);
+    text-decoration: underline;
 }
 
 a:visted {
@@ -51,7 +51,7 @@ header {
 
 /* FOOTER */
 .social {
-    padding-top: .75em;
+    padding-top: 1em;
     padding-bottom: .6em;
     padding-left: 3em;
 }
@@ -59,6 +59,7 @@ header {
 .social a {
     color: #fff;
     font-size: 2em;
+    padding: 3px;
 }
 /*end footer styles*/
 
@@ -77,7 +78,7 @@ nav li {
 }
 
 
-nav a:active{
+nav a.active{
     color: #040404;
     text-decoration: underline;
 }
@@ -144,6 +145,7 @@ nav a:active{
   padding: 10px 20px 10px 20px;
   border: solid #2274A5 2px;
   text-decoration: none;
+    padding: 0 0 1em 0;
 
 }
 
@@ -185,18 +187,18 @@ nav a:active{
 /* end media container */
 
 .flexbox-t {
-display: felx;
+display: flex;
 display: -webkit-flex;
-padding-top: 1em;
-padding-bottom: 1em;
+padding-top: 0.5em;
+padding-bottom: 0.5em;
 padding-left: 5em;
 padding-right: 5em;
 align-items: center;
 }
 
 .testi-padding {
-    padding-top: 4em;
-    padding-bottom: 4em;
+    padding-top: 0.8em;
+    padding-bottom: 2.5em;
 }
 
 .pl {
@@ -244,4 +246,48 @@ align-items: center;
 
 .dark-blue {
     background-color: #2274A5;
+}
+
+
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 320px;
+	height: 480px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
 }
