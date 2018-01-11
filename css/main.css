@@ -1,0 +1,135 @@
+/* base css */
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 3em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 2.4em;
+    color: #2274A5;
+}
+
+h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    color: #040404;
+}
+
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #040404;
+}
+
+a {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #040404;
+    padding: .3em;
+}
+
+a:hover {
+    color: #2274A5;
+}
+
+a:active {
+    font-style: italic;
+}
+
+nav a:visited{
+    color: #040404;
+}
+
+a:visted {
+    color: #6E7E85;
+}
+
+header {
+    padding-left: 2em;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav {
+    display: flex;
+    align-content: space-around;
+    font-size: .9em;
+    align-items: center;
+    padding-right: 5em;
+}
+
+nav li {
+    display: inline;
+    padding: .85em;
+}
+
+.fixed-nav-bar {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    border-bottom: 1px solid lightgray;
+  }
+
+  /* get started button border doesn't work */
+  .nav-get-started {
+      border: 1px solid #2274A5;
+  }
+
+.social {
+    padding-top: .75em;
+    padding-bottom: .6em;
+    padding-left: 3em;
+}
+
+.social a {
+    color: #fff;
+    font-size: 2em;
+}
+
+/* background color classes */
+
+.light-blue {
+    background-color: #B8D2E2;
+    opacity: 75%;
+}
+
+.dark-blue {
+    background-color: #2274A5;
+}
+
+/* home page */
+.main-img {
+    border-top: 70px; /*for sticky header*/
+    width: 100%;
+    height: 36%;
+}
+
+.main-h1 {
+    text-align: center;
+}
+
+/* media container */
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+} 
+
+.embed-container iframe, 
+.embed-container object, 
+.embed-container embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
