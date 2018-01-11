@@ -1,8 +1,7 @@
-
+/*positioning the location and map*/
 .location-container {
     padding: 100px;
     margin: 0;
-    background-color: rgb(127, 194, 233);
     display: flex;
     justify-content: space-around;
 }
@@ -26,4 +25,6 @@ hr {
 .overhead {
     width: 45%;
 }
+
+
 
