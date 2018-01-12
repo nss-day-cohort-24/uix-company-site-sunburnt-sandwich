@@ -259,8 +259,8 @@ align-items: center;
 	}
 
 .flip-container, .front, .back {
-	width: 320px;
-	height: 480px;
+	width: 240px;
+	height: 250px;
 }
 
 /* flip speed goes here */
