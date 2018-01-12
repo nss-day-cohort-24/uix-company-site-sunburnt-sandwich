@@ -291,3 +291,20 @@ align-items: center;
 .back {
 	transform: rotateY(180deg);
 }
+
+div.topPadding {
+    padding-top: 4em;
+}
+
+h2.centerHeaders {
+    text-align: center;
+}
+
+img.imgRight {
+    margin-left: 29.8em;
+    display: inline;
+}
+
+* {
+    border: solid red 1px;
+}
