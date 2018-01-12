@@ -76,7 +76,7 @@ function nonRing() {
 
 ////////tablet function
 function tablet() {
-    var earpiece = ["<h4>Jarvis Tablet Ring</h4>", "Jarvis Prioritizing Schedule iOS Application For Tablet","<br>" + "$10"];
+    var earpiece = ["<h4>Jarvis Tablet</h4>", "Jarvis Prioritizing Schedule iOS Application For Tablet","<br>" + "$10"];
     earpiece.toString();
     document.getElementById("tablet").innerHTML = earpiece;
 }
