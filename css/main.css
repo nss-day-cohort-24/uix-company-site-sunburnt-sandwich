@@ -213,7 +213,7 @@ align-items: center;
 
 .flip-container, .front, .back {
 	width: 240px;
-	height: 400px;
+	height: 250px;
 }
 
 /* flip speed goes here */

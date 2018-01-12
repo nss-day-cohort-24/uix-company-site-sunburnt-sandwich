@@ -34,7 +34,7 @@ function nonIronComp() {
 
 ////////jarvis function
 function jarvis() {
-    var earpiece = ["<h4>Jarvis App</h4>", "Jarvis Prioritzing Schedule IOS Application", "$30"];
+    var earpiece = ["<h4>Jarvis App</h4>", "Jarvis Prioritzing Schedule IOS Application","<br>" + "$30"];
     earpiece.toString();
     document.getElementById("jarvis").innerHTML = earpiece;
 }
