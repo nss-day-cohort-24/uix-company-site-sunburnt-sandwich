@@ -10,7 +10,7 @@ div.products-header {
     border: 1px solid #979797;   
     color: white;
     font-family: Helvetica, sans-serif;
-    height: 250px;
+    height: 210px;
     padding-top: 60px;
 
 }
@@ -21,19 +21,16 @@ div.products-header {
     font-size: 1.3em;
     display: inline-block;
     margin: -20px 0 0 530px;
-
     color: white;
     font-family: Helvetica, sans-serif;
 }
 
-h2 {
-    /* float: left; */
-    /* margin-left: 1em;
-    margin-right: 15em; */
-    /* font-size: 1em; */
+h1 {
     color: white;
     position: relative;
-    left: 17px;
+    left: 30px;
+    top: 15px;
+    font-size: 2em;
     
 }
 
@@ -49,6 +46,6 @@ div.products {
     margin: 2em 0 2em 0;
   }
 
-  img {
+  img.product-pics {
       border-radius: 50%;
   }
