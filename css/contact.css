@@ -45,7 +45,6 @@ hr {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-
 }
 
 .forms {
@@ -54,12 +53,6 @@ hr {
 }
 
 
-
-
-
-
-
-
-/* main {
+.contact-container {
     margin: 0 0 100px 0;
-} */
+}
