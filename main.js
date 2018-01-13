@@ -1,7 +1,7 @@
 
 ////////watch function
 function watch() {
-    var earpiece = ["<h4>Jarvis Watch</h4>", "Apple Watch Friendly Jarvis Application","<br>" + "$5.99"];
+    var earpiece = ["<h3>Jarvis Watch</h3>", "Apple Watch Friendly Jarvis Application","<br>" + "$359.99"];
     document.getElementById("watch").innerHTML = earpiece.join(" ");
 }
 function nonWatch() {
@@ -11,7 +11,7 @@ function nonWatch() {
 
 ///////ironman function
 function ironman() {
-    var earpiece = ["<h4>Iron Man Suit</h4>", "Full Body Immersive Armor Suit","<br>" + "$1,500,000"];
+    var earpiece = ["<h3>Iron Man Suit</h3>", "Full Body Immersive Armor Suit","<br>" + "$1,500,000"];
     document.getElementById("ironman").innerHTML = earpiece.join(" ");
 }
 function nonIronman() {
@@ -21,7 +21,7 @@ function nonIronman() {
 
 ///////ironComp function
 function ironComp() {
-    var earpiece = ["<h4>Jarvis Reality</h4>", "Bio-interactive Computing","<br>" + "$500,000"];
+    var earpiece = ["<h3>Jarvis Reality</h3>", "Bio-interactive Computing","<br>" + "$500,000"];
     document.getElementById("ironComp").innerHTML = earpiece.join(" ");
 }
 function nonIronComp() {
@@ -31,7 +31,7 @@ function nonIronComp() {
 
 ////////jarvis function
 function jarvis() {
-    var earpiece = ["<h4>Jarvis App</h4>", "Jarvis Prioritzing Schedule IOS Application","<br>" + "$30"];
+    var earpiece = ["<h3>Jarvis App</h3>", "Jarvis Prioritzing Schedule IOS Application","<br>" + "$30"];
     document.getElementById("jarvis").innerHTML = earpiece.join(" ");
 }
 function nonJarvis() {
@@ -41,17 +41,16 @@ function nonJarvis() {
 
 ///////macbook function
 function macBook() {
-    var earpiece = ["<h4>Jarvis Desktop</h4>", "Jarvis Prioritizing Schedule Desktop Application","<br>" + "$30"];
+    var earpiece = ["<h3>Jarvis Desktop</h3>", "Jarvis Prioritizing Schedule Desktop Application","<br>" + "$30"];
     document.getElementById("macbook").innerHTML = earpiece.join(" ");
 }
 function nonMacBook() {
 	document.getElementById("macbook").innerHTML = "";
 }
 
-
 ///////glasses function
 function glasses() {
-    var earpiece = ["<h4>Jarvis Smart Glasses</h4>", "Jarvis Prioritizing Schedule Smart Glasses","<br>" + "$599"];
+    var earpiece = ["<h3>Jarvis Glass</h3>", "Jarvis Prioritizing Schedule Smart Glasses","<br>" + "$599"];
     document.getElementById("glasses").innerHTML = earpiece.join(" ");
 }
 function nonGlasses() {
@@ -60,7 +59,7 @@ function nonGlasses() {
 
 ////////ring function
 function ring() {
-    var earpiece = ["<h4>Jarvis Smart Ring</h4>", "Jarvis Prioritizing Schdule Smart Ring","<br>" + "$499"];
+    var earpiece = ["<h3>Jarvis Smart Ring</h3>", "Jarvis Prioritizing Schedule Smart Ring","<br>" + "$499"];
     document.getElementById("ring").innerHTML = earpiece.join(" ");
 }
 function nonRing() {
@@ -69,9 +68,22 @@ function nonRing() {
 
 ////////tablet function
 function tablet() {
-    var earpiece = ["<h4>Jarvis Tablet</h4>", "Jarvis Prioritizing Schedule iOS Application For Tablet","<br>" + "$10"];
+    var earpiece = ["<h3>Jarvis Tablet</h3>", "Jarvis Prioritizing Schedule iOS Application For Tablet","<br>" + "$10"];
     document.getElementById("tablet").innerHTML = earpiece.join(" ");
 }
 function nonTablet() {
 	document.getElementById("tablet").innerHTML = "";
 }
+
+// ///////// Button variable
+// var btn = ['<a class="btn" href="/product-detail.html">' + 'Learn ' + 'More' + '</a>']
+
+// ////////watch function
+// function watch() {
+//     var earpiece = ["<h3>Jarvis Watch</h3>", "Apple Watch Friendly Jarvis Application","<br>" + "$359.99" + "<br>" + btn];
+//     document.getElementById("watch").innerHTML = earpiece.join(" ");
+// }
+// function nonWatch() {
+// 	document.getElementById("watch").innerHTML = "";
+// }
+

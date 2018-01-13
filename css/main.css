@@ -14,7 +14,7 @@ h2 {
 
 h3 {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 1em;
+    font-size: 1.1em;
     color: #040404;
     text-weight: bold;
 }
@@ -139,21 +139,6 @@ nav li {
 
 }
 
-.products {
-    display: flex;
-    display: -webkit-flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-left: 3em;
-    padding-right: 3em;
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
-
-.products img {
-    border-radius: 50%;
-}
-
 /* end home page styles */
 
 
@@ -217,6 +202,19 @@ align-items: center;
     padding-right: 1em;
 }
 
+
+.products {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em 3em;
+}
+
+.products img {
+    border-radius: 50%;
+}
+
 .circle-img {
     border-radius: 50%;
     width: 12em;
@@ -243,7 +241,10 @@ align-items: center;
 }
 
 
-/* entire container, keeps perspective */
+/* ======== PRODUCTS CONTAINERS ==========
+ entire container, keeps perspective */
+
+
 .flip-container {
 	perspective: 1000px;
 }
@@ -252,23 +253,21 @@ align-items: center;
 		transform: rotateY(180deg);
 	}
 
-.flip-container, .front, .back {
+.flip-container, .front, .back  {
 	width: 240px;
-	height: 250px;
+    height: 250px;
 }
 
 /* flip speed goes here */
 .flipper {
 	transition: 0.6s;
 	transform-style: preserve-3d;
-
 	position: relative;
 }
 
 /* hide back of pane during swap */
 .front, .back {
 	backface-visibility: hidden;
-
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -283,7 +282,7 @@ align-items: center;
 
 /* back, initially hidden pane */
 .back {
-	transform: rotateY(180deg);
+    transform: rotateY(180deg); 
 }
 
 div.topPadding {
@@ -293,7 +292,7 @@ div.topPadding {
 div#product-detail-heading {
     background-color: #2273A5;
     height: 12em;
-    margin-top: -1.6em;
+    /* margin-top: -1.6em; */
 }
 
 div#product-detail-heading h1 {
@@ -305,12 +304,11 @@ div#product-detail-heading h1 {
 
 div#product-detail-heading h3 {
     text-align: center;
-    color: white;
+    color:white;
     font-weight: normal;
     margin-top: 1em;
     padding-bottom: 2em;
     font-size: 1.5em;
-
 }
 
 h2.centerHeaders {
@@ -339,9 +337,7 @@ section#mainSection p{
 
 article#smartSyncing p {
     display: inline-block;
-
 }
-
 
 article#advancedAI p{
     float: left;
@@ -353,6 +349,19 @@ article#advancedAI img {
     margin-left: 50em;
     border-radius: 20%;
 }
+
+.product-card{
+    background-color: #B8D2E2;
+    color: #040404;
+    text-align: center;
+    border-radius: 50%;
+    width: 12em;
+    height: 12em;
+    padding: 1.1em; 
+    margin: auto;
+}
+
+
 /* 
 * {
     border: solid red 1px;
