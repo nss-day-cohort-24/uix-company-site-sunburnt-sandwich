@@ -175,7 +175,7 @@ nav li {
     background:  #2274A5;
     text-decoration: none;
     text-transform: uppercase;
-    line-height: 5em;
+    line-height: 4em;
   }
 
 .blue-btn:hover {
@@ -380,6 +380,7 @@ div#product-detail-heading h3 {
 
 h2.centerHeaders {
     text-align: center;
+    margin: 10px;
 }
 
 img.imgRight {
@@ -398,23 +399,28 @@ section#mainSection p{
 #smartSyncingImg {
     border-radius: 58%;
     display: inline;
-    margin-right: 2em;
-    margin-left: 8em;
 }
 
-article#smartSyncing p {
+/* article#smartSyncing p {
     display: inline-block;
-}
+} */
 
 article#advancedAI p{
-    float: left;
-    margin-top: -3em;
-    margin-left: 6em;
+    display: block;
+    /* float: left; */
+    /* margin-top: -3em; */
+    /* margin-left: 6em; */
+    overflow: hidden;
 }
 
 article#advancedAI img {
-    margin-left: 50em;
+    /* margin-left: 50em; */
+    display: inline;
     border-radius: 20%;
+}
+
+.details {
+    padding: 2em 1em;  
 }
 
 .product-card{
