@@ -1,4 +1,13 @@
 /* ================== BASE STYLES =================== */
+/* 
+* {
+    border: solid red 1px;
+} */
+
+div {
+    display: inherit;
+}
+
 h1 {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 3em;
@@ -10,6 +19,7 @@ h2 {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1.5em;
     color: #2274A5;
+    margin: 0;
 }
 
 h3 {
@@ -17,6 +27,9 @@ h3 {
     font-size: 1.1em;
     color: #040404;
     text-weight: bold;
+    display: inherit;
+    float: none;
+    -webkit-margin-after: 0em;
 }
 
 p {
@@ -45,11 +58,24 @@ a:hover {
 }
 
 
+/* =================== DISPLAY FLEX =================== */
+.img,  
+.flexbox-t,
+.flexbox-m,
+.quote,
+.top-text,
+.products,
+.item,
+.right,
+header,
+nav {
+    display: flex;
+    display: -webkit-flex;
+}
+
 /* =================== HEADER ================ */
 header {
     padding-left: 2em;
-    display: flex;
-    display: -webkit-flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -58,7 +84,6 @@ header {
 
 /*  ============== NAVIGATION ================ */
 nav {
-    display: flex;
     align-content: space-around;
     font-size: .9em;
     align-items: center;
@@ -83,7 +108,7 @@ nav li {
     text-transform: uppercase;
   }
   
-  .btn:hover {
+.btn:hover {
     background: #c70414;
     color: #fff;
     text-decoration: none;
@@ -96,11 +121,6 @@ nav li {
     height: 70px;
     background-color: #fff;
     border-bottom: 1px solid lightgray;
-  }
-
-  /* get started button border doesn't work */
-  .nav-get-started {
-      border: 1px solid #2274A5;
   }
 
 /* end nav styles */
@@ -166,17 +186,34 @@ nav li {
 /* end media container */
 
 .flexbox-t {
-display: flex;
-display: -webkit-flex;
-padding-top: 0.5em;
-padding-bottom: 0.5em;
-padding-left: 5em;
-padding-right: 5em;
+flex-direction: row;
+flex-wrap: wrap;
+padding: 0.5em 5em;
 align-items: center;
+justify-content: flex-start;
 }
 
+.flexbox-m {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0.5em 5em;
+    align-items: center;
+    justify-content: space-around;
+    }
+
+.item{
+    flex-basis: 23%;
+}
+
+.right{
+    flex-grow: 3;
+    flex-direction: column;
+}
+
+
+
 .testi-padding {
-    padding-top: 0.8em;
+    padding-top: 2em;
     padding-bottom: 2.5em;
 }
 
@@ -190,8 +227,6 @@ align-items: center;
 
 .top-text {
     padding-top: 70px;
-    display: flex;
-    display: -webkit-flex;
     align-content: center;
     align-items: center;
     padding-left: 3em;
@@ -204,8 +239,6 @@ align-items: center;
 
 
 .products {
-    display: flex;
-    display: -webkit-flex;
     justify-content: space-around;
     align-items: center;
     padding: 2em 3em;
@@ -222,8 +255,6 @@ align-items: center;
 }
 
 .quote {
-    display: flex;
-    display: -webkit-flex;
     background-color: lightgray;
     padding-left: 3em;
     align-items: center;
@@ -361,8 +392,3 @@ article#advancedAI img {
     margin: auto;
 }
 
-
-/* 
-* {
-    border: solid red 1px;
-} */
