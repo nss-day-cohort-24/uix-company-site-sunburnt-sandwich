@@ -1,21 +1,23 @@
 /*positioning the location and map with a splash of styling*/
+.container{
+    display: flex; 
+    display: -webkit-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .location-container {
-    padding: 100px;
-    margin: 0;
     display: flex;
-    justify-content: space-around;
-    background-color: #B8D2E2;
-}
-.location {
-    font-size: 1.5em;
-    width: 25%;
-    padding-left: 100px;
-    display:flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     flex-direction: column;
+    padding: 20px;
 }
-.location h2{
-    margin: 0;
+.map-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    margin: 5em 5em 5em 2em;
 }
 
 hr {
@@ -29,30 +31,23 @@ hr {
 
 /*postioning the contacts and forms*/
 .contact-container {
-    padding: 0;
+    padding: 60px 0 0 3em;
     margin: 0;
     font-size: 1em;
     display: flex;
     justify-content: space-between;
 }
 
-}
-
-.contacts {
-    margin: 0;
-    padding: 0 0 0 500px;
-    width: 50%;
+contacts {
+    margin: 1em;
     display: flex;
-    justify-content: flex-start;
     flex-direction: column;
+    /* flex: 2 1 35%; */
 }
 
 .forms {
-    width: 50%;
-    padding: 0 0 0 160px;
+    flex-grow: 2;
+    padding: 0 0 10px 35px;
+    margin: 1em;
 }
 
-
-.contact-container {
-    margin: 0 0 100px 0;
-}
